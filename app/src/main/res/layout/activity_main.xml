@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0073D2"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/degreeImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        app:layout_constraintStart_toEndOf="@+id/max_temp_value"
+        app:layout_constraintTop_toTopOf="@+id/max_temp_value"
+        />
+
+    <ImageView
+        android:id="@+id/degreeImageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toEndOf="@+id/min_temp_value"
+        app:layout_constraintTop_toBottomOf="@+id/max_temp_value"
+        />
+
+    <TextView
+        android:id="@+id/min_temp_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:text="LO"
+        android:textColor="@android:color/white"
+        android:textSize="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/max_temp_word" />
+
+    <TextView
+        android:id="@+id/max_temp_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="100"
+        android:textColor="@android:color/white"
+        android:textSize="80dp"
+        app:layout_constraintStart_toEndOf="@+id/max_temp_word"
+        app:layout_constraintTop_toTopOf="@+id/max_temp_word" />
+
+    <TextView
+        android:id="@+id/min_temp_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="100"
+        android:textColor="@android:color/white"
+        android:textSize="80dp"
+        app:layout_constraintBottom_toBottomOf="@+id/min_temp_word"
+        app:layout_constraintStart_toEndOf="@+id/max_temp_word" />
+
+    <TextView
+        android:id="@+id/max_temp_word"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="250dp"
+        android:text="HI"
+        android:textColor="@android:color/white"
+        android:textSize="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/date_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Date"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/max_temp_value"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/location_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:text="Newark, NJ"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/date_value"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/accuweatherAttribution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

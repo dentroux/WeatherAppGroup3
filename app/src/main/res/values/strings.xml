@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WeatherAppGroup3</string>
+    <string name="accuWeather_message"><a href="https://developer.accuweather.com/">Powered by AccuWeather</a></string>
+
+</resources>
