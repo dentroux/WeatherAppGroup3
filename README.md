@@ -17,3 +17,4 @@ Optional things that i can think of
 2. Adding pictures for the type of current weather?
 3. Humidity?
 4. Getting time instead of date?
+OAuth 2.0 and OIDC Implementation
