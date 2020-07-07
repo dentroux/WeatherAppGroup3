@@ -11,6 +11,7 @@ Things to work on include
 4. Rain/ precipitation percentages, not sure if this is in the API or not
 5. Formatting the date (making it look nice)
 6. Dealing with errors like no internet
+7. Way to update the weather so that the app does not need to be closed and reopened to fetch new weather data
 
 Optional things that i can think of
 1. Multiple day forecasts?
