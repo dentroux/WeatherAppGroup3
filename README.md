@@ -5,7 +5,7 @@ This is a hardcoded location that uses the API's city code for Newark, NJ.
 
 Things to work on include
 1. Getting location and getting the location's weather through the API
-2. Possibilty of making a button to convert to metric? API is deg Fhrenheit  by default 
+2. Possibilty of making a button to convert to metric? API is deg Fahrenheit  by default 
 3. Getting the time
 3. Currently gets the High and Lo temperatures for the day, not the actual temperature, something to work on
 4. Rain/ precipitation percentages, not sure if this is in the API or not
